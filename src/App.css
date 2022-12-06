@@ -83,11 +83,18 @@ button {
   background-color: #888;
   padding: 0.4rem 1rem;
   display: grid;
-  grid-template-columns: minmax(0, 50px) repeat(2, 1fr);
+  grid-template-columns: minmax(0, 500px) repeat(2, 1fr);
   font-size: 1.8rem;
   font-weight: 300;
   transition: all 0.5s linear;
   overflow: hidden;
+}
+
+.number {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  font-weight: 300;
 }
 
 .c-compute > button {

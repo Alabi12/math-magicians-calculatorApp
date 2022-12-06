@@ -19,9 +19,7 @@ class Calculator extends React.Component {
           </div>
 
           <div className="ctc c-compute">
-            <button type="button" className="c-reverse" value="rv">
-              <i className="fa-solid fa-rotate-left" />
-            </button>
+            <div className="number">0</div>
           </div>
 
           <div className="c-grid">
