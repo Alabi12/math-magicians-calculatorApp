@@ -22,7 +22,7 @@ REQUIRED SECTIONS:
 After you're finished please remove all the comments and instructions!
 -->
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Calculator App</b></h3>
 
 </div>
 
@@ -52,17 +52,18 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Math-Magicians] <a name="about-project"></a>
+# 📖 [Math-Magicians-Calculator App] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> This project is a math-magician project by the the calculator to text the functionality. A user click is able to perform simple arithmetic with the app.
 
-**[calculatorApp]** is a...
+**[calculatorApp]** is an arithmetic function to perform simple calculations
 
 ## 🛠 Built With <a name="built-with"></a>
+# HTML
+# CSS
+# REACT JS
 
 ### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
@@ -71,29 +72,11 @@ After you're finished please remove all the comments and instructions!
   </ul>
 </details>
 
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
-
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[Single Web Application]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -101,9 +84,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://alabi12.github.io/math-magicians-calculatorApp-/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -199,15 +180,10 @@ Example:
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/Alabi12)
+- Twitter: [@twitterhandle](thttps://twitter.com/wolo_robert)
+- LinkedIn: [LinkedIn](linkedin.com/in/robert-alabi)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -247,7 +223,10 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+# Thanks to the Microverse team for the great curriculum.
+# Thanks to the Code Reviewer(s) for the insightful feedback.
+# A great thanks to My coding partner(s), morning session team, and standup team for their contributions.
+# Hat tip to anyone whose code was used.
 
 I would like to thank...
 

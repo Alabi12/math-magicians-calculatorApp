@@ -95,6 +95,7 @@ button {
   align-items: flex-end;
   justify-content: flex-end;
   font-weight: 300;
+  color: #fff;
 }
 
 .c-compute > button {
