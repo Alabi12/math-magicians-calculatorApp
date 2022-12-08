@@ -22,7 +22,7 @@ REQUIRED SECTIONS:
 After you're finished please remove all the comments and instructions!
 -->
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Calculator App</b></h3>
 
 </div>
 
@@ -52,17 +52,18 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Math-Magicians] <a name="about-project"></a>
+# 📖 [Math-Magicians-Calculator App] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> This project is a math-magician project by the the calculator to text the functionality. A user click is able to perform simple arithmetic with the app.
 
-**[calculatorApp]** is a...
+**[calculatorApp]** is an arithmetic function to perform simple calculations
 
 ## 🛠 Built With <a name="built-with"></a>
+1. HTML
+2. CSS
+3. REACT JS
 
 ### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
@@ -71,29 +72,11 @@ After you're finished please remove all the comments and instructions!
   </ul>
 </details>
 
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
-
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[Single Web Application]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -101,9 +84,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://alabi12.github.io/math-magicians-calculatorApp-/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -111,83 +92,28 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+npm create-react-app project-name
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
-```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
+  git clone git https://github.com/Alabi12/math-magicians-calculatorApp-.git
+
 
 ### Install
 
 Install this project with:
 
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
-
-### Usage
-
-To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
+ cd my-project
+ npm install
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -199,15 +125,10 @@ Example:
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/Alabi12)
+- Twitter: [@twitterhandle](@wolo_robert)
+- LinkedIn: [LinkedIn](linkedin.com/in/robert-alabi)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -247,7 +168,10 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+1 Thanks to the Microverse team for the great curriculum.
+2 Thanks to the Code Reviewer(s) for the insightful feedback.
+3 A great thanks to My coding partner(s), morning session team, and standup team for their contributions.
+4 Hat tip to anyone whose code was used.
 
 I would like to thank...
 
