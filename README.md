@@ -66,7 +66,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://mujeeb4582.github.io/Math_Megicians/)
+- [Live Demo Link]( https://alabi12.github.io/math-magicians-calculatorApp/)
 
 
 <!-- GETTING STARTED -->
@@ -89,7 +89,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/Mujeeb4582/Math_Megicians.git
+  git clone https://https://https://github.com/Alabi12/math-magicians-calculatorApp.git
 ```
 
 ### Usage
@@ -129,9 +129,9 @@ You can deploy this project using:
 
 👤 **Robert O. Alabi**
 
-- GitHub: [@Mujeeb4582](https://github.com/Alabi12)
-- Twitter: [@Mujeebu93992980](https://twitter.com/Mujeebu93992980)
-- LinkedIn: [@mujeeb-ur-rahman-54268011a](https://linkedin.com/in/mujeeb-ur-rahman-54268011a)
+- GitHub: [@Alabi12](https://github.com/Alabi12)
+- Twitter: [@wolo_robert](https://twitter.com/wolo_robert)
+- LinkedIn: [@robert-alabi](linkedin.com/in/robert-alabi)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
