@@ -1,30 +1,4 @@
-<a name="readme-top"></a>
-
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-After you're finished please remove all the comments and instructions!
--->
-
-  <h3><b>Calculator App</b></h3>
-
-</div>
+![Microverse](https://img.shields.io/badge/Microverse-blueviolet) ![HTML](https://img.shields.io/badge/-HTML-orange) ![CSS](https://img.shields.io/badge/-CSS-blue) ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow) ![React.js](https://img.shields.io/badge/-React.js-green)
 
 <!-- TABLE OF CONTENTS -->
 
@@ -52,16 +26,12 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Math-Magicians-Calculator App] <a name="about-project"></a>
+# 📖 Math Magicians <a name="about-project"></a>
 
-> This project is a math-magician project by the the calculator to text the functionality. A user click is able to perform simple arithmetic with the app.
+"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: Make simple calculations. Read a random math-related quote.
 
-**[calculatorApp]** is an arithmetic function to perform simple calculations
-
-## 🛠 Built With <a name="built-with"></a>
-1. HTML
-2. CSS
-3. REACT JS
+## 🛠 Built With 
+<a name="built-with">![HTML](https://img.shields.io/badge/-HTML-orange) <br> ![CSS](https://img.shields.io/badge/-CSS-blue) <br> ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow) <br> ![React.js](https://img.shields.io/badge/-Rect.js-green)</a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -72,11 +42,23 @@ After you're finished please remove all the comments and instructions!
   </ul>
 </details>
 
+<details>
+  <summary>Server</summary>
+  <ul>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+  </ul>
+</details>
+
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **[Single Web Application]**
+- **Single-Page-Application**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -84,36 +66,60 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://alabi12.github.io/math-magicians-calculatorApp-/)
+- [Live Demo Link]( https://alabi12.github.io/math-magicians-calculatorApp/)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
+To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
+
 In order to run this project you need:
 
-npm create-react-app project-name
+- [Node](https://nodejs.org/en/) installed in your computer 
+- [Git](https://git-scm.com/) installed in your computer 
 
 ### Setup
 
 Clone this repository to your desired folder:
 
+```sh
   cd my-folder
-  git clone git https://github.com/Alabi12/math-magicians-calculatorApp-.git
+  git clone https://https://https://github.com/Alabi12/math-magicians-calculatorApp.git
+```
+
+### Usage
+
+To run the project, execute the following command:
 
 
-### Install
+```sh
+  npm start
+```
 
-Install this project with:
+### Run tests
 
- cd my-project
- npm install
+To run tests, run the following command:
+
+
+```sh
+  npm test
+```
+
+### Deployment
+
+You can deploy this project using:
+
+
+
+```sh
+    npm build
+```
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -121,14 +127,11 @@ Install this project with:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+👤 **Robert O. Alabi**
 
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/Alabi12)
-- Twitter: [@twitterhandle](@wolo_robert)
-- LinkedIn: [LinkedIn](linkedin.com/in/robert-alabi)
-
+- GitHub: [@Alabi12](https://github.com/Alabi12)
+- Twitter: [@wolo_robert](https://twitter.com/wolo_robert)
+- LinkedIn: [@robert-alabi](linkedin.com/in/robert-alabi)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -138,9 +141,8 @@ Install this project with:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **Add Test to React components**
+- [ ] **Add Page For Not found ,when route path is not found**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -150,30 +152,22 @@ Install this project with:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Feel free to check the [issues page](https://github.com/Alabi12/math-magicians-calculatorApp/issues).
 
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Give a ⭐️ if you like this project!
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-1 Thanks to the Microverse team for the great curriculum.
-2 Thanks to the Code Reviewer(s) for the insightful feedback.
-3 A great thanks to My coding partner(s), morning session team, and standup team for their contributions.
-4 Hat tip to anyone whose code was used.
-
-I would like to thank...
+- Thanks to the Microverse team for the great curriculum.
+- Thanks to the Code Reviewer(s) for the insightful feedback.
+- A great thanks to My coding partner(s), morning session team, and standup team for their contributions.
+- Hat tip to anyone whose code was used.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -197,7 +191,7 @@ I would like to thank...
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
