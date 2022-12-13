@@ -28,10 +28,44 @@
 
 body {
   background-color: #e5e5e5;
-  display: grid;
-  justify-content: center;
+  max-height: 100vh;
+}
+
+.row {
+  width: 90%;
+  margin: auto;
+}
+
+.home {
+  margin-top: 2rem;
+}
+
+p {
+  margin-top: 2rem;
+}
+
+.navbar {
+  background-color: grey;
+  display: flex;
+  flex-direction: row;
   align-items: center;
-  grid-template-columns: 100%;
+  justify-content: space-between;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navbar li {
+  padding: 20px;
+  list-style: none;
+  border: none;
+  font-size: 1.3rem;
 }
 
 body::-webkit-scrollbar {
@@ -40,16 +74,15 @@ body::-webkit-scrollbar {
 
 .container {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0.5rem;
-  max-width: 750px;
+  justify-content: space-between;
+  padding: 2rem;
+  max-width: 700px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .container .calculator {
-  height: 65vh;
+  height: 70vh;
   width: 400px;
   background-color: var(--main-black);
   border-radius: 0.5rem;
@@ -68,7 +101,7 @@ button {
 .c-wrapper {
   display: grid;
   grid-auto-rows: 1% 28% 11% 51%;
-  height: 50%;
+  height: 60%;
 }
 
 .c-screen {
@@ -142,7 +175,7 @@ button {
 
   .container {
     grid-template-columns: repeat(2, 1fr);
-    padding: unset;
+    padding: 2rem;
     width: 750px;
   }
 }
