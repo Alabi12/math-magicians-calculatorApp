@@ -22,7 +22,7 @@ REQUIRED SECTIONS:
 After you're finished please remove all the comments and instructions!
 -->
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Calculator App</b></h3>
 
 </div>
 
@@ -101,9 +101,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://calculator1-jxy3.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -199,15 +197,9 @@ Example:
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/Alabi12)
+- Twitter: [@twitterhandle](https://twitter.com/wolo_robert)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/robert-alabi)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
