@@ -16,7 +16,8 @@ function Calculator() {
   };
 
   return (
-    <div>
+    <div className="container">
+      <h2>Let&apos;s do some maths!</h2>
       <div className="calculator">
         <div className="c-wrapper">
           <div className="ctc c-screen">
