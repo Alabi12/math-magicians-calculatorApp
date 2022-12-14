@@ -1,39 +1,185 @@
+/* stylelint-disable csstree/validator */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+  --default-color: rgb(243, 144, 62);
+  --default-text-color: #000;
+  --black--first: #363e4d;
+  --black--second: #242933;
+  --main-black: rgb(224 224 224);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-tap-highlight-color: transparent; /* transparent with keyword */
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* transparent with rgba */
+  -webkit-tap-highlight-color: hsla(0, 0, 0, 0); /* transparent with hsla */
+  -webkit-tap-highlight-color: #0000; /* transparent with hex with alpha */
+  -webkit-tap-highlight-color: #0000; /* transparent with short hex with alpha */
+}
+
 .App {
-  text-align: center;
+  display: grid;
+  grid-auto-rows: 539px;
+  padding: 1rem 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #e5e5e5;
+  max-height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.row {
+  width: 90%;
+  margin: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.home {
+  margin-top: 2rem;
+}
+
+p {
+  margin-top: 2rem;
+}
+
+.navbar {
+  background-color: grey;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navbar li {
+  padding: 20px;
+  list-style: none;
+  border: none;
+  font-size: 1.3rem;
+}
+
+body::-webkit-scrollbar {
+  display: none !important;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container .calculator {
+  height: 70vh;
+  width: 400px;
+  background-color: var(--main-black);
+  border-radius: 0.5rem;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+/* global button style */
+button {
+  border: unset;
+  box-shadow: unset;
+  color: var(--default-text-color);
+  cursor: pointer;
+}
+
+/* calculator wrapper */
+.c-wrapper {
+  display: grid;
+  grid-auto-rows: 1% 28% 11% 51%;
+  height: 60%;
+}
+
+.c-screen {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: flex-end;
+  align-items: flex-end;
+  transition: all 0.5s linear;
 }
 
-.App-link {
-  color: #61dafb;
+.c-compute {
+  background-color: #888;
+  padding: 0.4rem 1rem;
+  display: grid;
+  grid-template-columns: minmax(0, 500px) repeat(2, 1fr);
+  font-size: 1.8rem;
+  font-weight: 300;
+  transition: all 0.5s linear;
+  overflow: hidden;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.number {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  font-weight: 300;
+  color: #fff;
+}
+
+.c-compute > button {
+  background-color: unset;
+  font-size: 1.2rem;
+  color: var(--default-text-color);
+}
+
+.c-compute span::-webkit-scrollbar {
+  display: none !important;
+}
+
+/* Action buttons */
+.c-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: 56vh;
+}
+
+.c-grid > button {
+  cursor: pointer;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all 0.5s linear;
+  text-transform: uppercase;
+  border: 3px solid var(--main-black);
+}
+
+.c-grid > button.special {
+  background-color: var(--default-color);
+}
+
+.span-two {
+  grid-column: span 2;
+}
+
+/* Larger Screen Size => 768px */
+@media screen and (min-width: 768px) {
+  body {
+    height: 100vh;
+    overflow: hidden;
   }
 
-  to {
-    transform: rotate(360deg);
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem;
+    width: 750px;
   }
+}
+
+.no-rv {
+  cursor: unset;
 }
